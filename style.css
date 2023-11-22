@@ -1,0 +1,25 @@
+body{
+    background-color: chartreuse;
+}
+
+.tip-container{
+    background-color: aqua;
+    position: absolute;
+    left:40%;
+    top: 10%;
+    max-width: 500px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.tip-container h1{
+    text-align: center;
+}
+.tip-container p{
+   margin-left:5px;
+}
+.tip-container input{
+   margin-left:5px;
+   
+}
+.tip-container button{
+    margin:5px;
+}
