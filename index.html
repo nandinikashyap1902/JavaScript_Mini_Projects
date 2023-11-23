@@ -12,12 +12,13 @@
         <h1>Tip Calculator</h1>
         <p>Enter the bill amount and tip percentage to calculate the total.</p>
         <p>Bill amount</p>
-        <input onchange="inputvalues()"/>
+        <input class="input" id="name" name="name" type="number" required/>
         <p>Tip percentage:</p>
-        <input onchange="inputvalues()"/>
+        <input class="input" id="price" type="number" required/>
         <br>
-        <button onclick="showvalues()">CALCULATE</button>
-        <p>Total:</p>
+        <button id="btn" onclick="showvalues()">CALCULATE</button>
+            <p>Total:<span id="total"></span></p>
+        
     
     </div>
     <script src="./index.js"></script>
