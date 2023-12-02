@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="tip-container">
-       
-        <h1>Tip Calculator</h1>
-        <p>Enter the bill amount and tip percentage to calculate the total.</p>
-        <p>Bill amount</p>
-        <input class="input" id="name" name="name" type="number" required/>
-        <p>Tip percentage:</p>
-        <input class="input" id="price" type="number" required/>
-        <br>
-        <button id="btn" onclick="showvalues()">CALCULATE</button>
-            <p>Total:<span id="total"></span></p>
-        
+    <nav><h1>Accounts</h1></nav> 
     
-    </div>
+        <div class="cardInv">
+        
+    </div>  
+    <!-- <script>
+        const url='https://api.sampleapis.com/fakebank/accounts/'
+    fetch(url,{method:'GET',})
+    .then((res)=>
+        res.json()
+    )
+    .then((data)=>
+        console.log(data)
+    )
+    .catch((err)=>
+        console.log(err)
+    )
+    </script> -->
     <script src="./index.js"></script>
 </body>
 </html>
