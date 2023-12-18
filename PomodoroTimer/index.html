@@ -10,12 +10,20 @@
     <div class="container">
         <h1>Pomodoro Timer</h1>
      <div class="btns">
-         <div class="timer">1:00</div>
-         <button id="start" class="btn">START</button>
-         <button id="stop" class="btn">STOP</button>
-         <button id="reset" class="btn">RESET</button>
+         <div class="timer" id="pomodoro-btns">1:00</div>
+         <button id="start" class="btn p">START</button>
+         <button id="stop" class="btn p">STOP</button>
+         <button id="reset" class="btn p">RESET</button>
+         </div>
+         <h1> StopWatch</h1>
+         <div class="stopwatch-container">
+            <div id="stopwatch">00:00:00</div>
+            <button id="stopwatch-start" class="btn s">START</button>
+         <button id="stopwatch-stop" class="btn s">STOP</button>
+         <button id="stopwatch-reset" class="btn s">RESET</button>
          </div>
     </div>
     <script src="./index.js"></script>
+    <script src="./stopwatch.js"></script>
 </body>
 </html>

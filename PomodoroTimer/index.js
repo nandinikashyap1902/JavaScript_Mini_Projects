@@ -1,6 +1,6 @@
 let interval;
 let timeLeft = 60;
-function startTime(){
+function startTimeNow(){
 interval = setInterval(()=>{
 timeLeft--;
 updateTime();
@@ -25,7 +25,7 @@ function resetTime(){
 function stopTime(){
 clearInterval(interval)
 }
-document.getElementById("start").addEventListener("click",startTime)
+document.getElementById("start").addEventListener("click",startTimeNow)
 
 document.getElementById("stop").addEventListener("click",stopTime)
 document.getElementById("reset").addEventListener("click",resetTime)
