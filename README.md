@@ -17,12 +17,3 @@ Follow these instructions to set up the project locally on your machine.
   ```bash
   git clone https://github.com/nandinikashyap1902/JavaScript_Mini_Projects.git
 
-### Technologies Used
-
-HTML
-CSS
-JavaScript
-
-### Contributing
-
-Feel free to contribute to this project. Follow the guidelines in CONTRIBUTING.md.
